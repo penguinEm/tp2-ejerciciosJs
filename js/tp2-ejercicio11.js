@@ -1,6 +1,5 @@
 /* 11- Realiza un script que pida por teclado 3 edades y 3 nombres e indique el
-nombre del mayor. *
-Nota: ver funcion Math() https://www.w3schools.com/js/js_math.asp */
+nombre del mayor.*/
 
 const nombrePrimero = prompt(`Escriba su nombre`);
 const edadPrimero = parseInt(prompt(`Indique su edad para ${nombrePrimero}`));
