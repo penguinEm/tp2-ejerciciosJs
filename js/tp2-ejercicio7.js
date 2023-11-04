@@ -12,7 +12,7 @@ indica 30).
 let altura = parseInt(prompt(`Ingrese un número no mayor a 50`));
 console.log(altura)
 
-for (altura; altura > 1; altura--) {
+for (altura; altura >= 1; altura--) {
   if (isNaN(altura) || altura > 50) {
     alert("Ingrese un número válido");
     altura = parseInt(prompt(`Ingrese un número no mayor a 50`));
